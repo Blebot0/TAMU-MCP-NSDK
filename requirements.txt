@@ -1,0 +1,12 @@
+# ============================================
+# CodeWhisper Forge - Python Dependencies
+# ============================================
+
+# Core dependencies
+streamlit>=1.28.0
+requests>=2.31.0
+
+# Optional: For visualization in predictions
+matplotlib>=3.7.0
+numpy>=1.24.0
+

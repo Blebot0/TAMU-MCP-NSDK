@@ -1,13 +1,23 @@
 {
   "name": "codewhisper-forge",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI-Powered Issue Resolution with Success Rate Prediction",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ai",
+    "github",
+    "issue-resolution",
+    "code-analysis",
+    "developer-tools",
+    "gemini",
+    "hackathon"
+  ],
+  "author": "TAMU Hackathon Team",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
@@ -18,5 +28,13 @@
     "express": "^5.1.0",
     "node-cache": "^5.1.2",
     "ollama": "^0.5.7"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/TAMU-MCP-NSDK.git"
   }
 }
